@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(253, 245, 253);/*cor do fundo*/
+    font-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    background-color: white;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    color: orchid;
+    font-size: 1.5em;
+}
+.principal{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.coluna1, .coluna2,.coluna3,.coluna4,.coluna5{
+align-items: center;
+margin: 1%;
+flex-grow: 1;
+}
+img{
+width: 225px; /*defini um tamanho padrão para as imagens*/
+height: 150px;
+margin: 8%;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+a:link, a:visited{
+color:pink;
+}
+    
